@@ -1,0 +1,202 @@
+import Vue from "vue";
+import Vuex from "vuex";
+import * as models from "@/code/models";
+
+Vue.use(Vuex);
+
+export default new Vuex.Store({
+  state: {
+    // newProduct: {} as any[],
+    Products: [
+      {
+        id: 1,
+        Name: "jhone",
+        parCode: 1,
+        Product: "Web Development",
+        Price: "unKnown",
+      },
+      {
+        id: 2,
+        Name: "ahmed",
+        parCode: 2,
+        Product: "Web Development",
+        Price: "unKnown",
+      },
+      {
+        id: 3,
+        Name: "ali",
+        parCode: 3,
+        Product: "Web Development",
+        Price: "unKnown",
+      },
+      {
+        id: 4,
+        Name: "test",
+        parCode: 4,
+        Product: "Web Development",
+        Price: "unKnown",
+      },
+      {
+        id: 5,
+        Name: "jhone",
+        parCode: 5,
+        Product: "Web Development",
+        Price: "unKnown",
+      },
+      {
+        id: 6,
+        Name: "jhone",
+        parCode: 6,
+        Product: "Web Development",
+        Price: "unKnown",
+      },
+      {
+        id: 7,
+        Name: "jhone",
+        parCode: 7,
+        Product: "Web Development",
+        Price: "unKnown",
+      },
+      {
+        id: 8,
+        Name: "jhone",
+        parCode: 8,
+        Product: "Web Development",
+        Price: "unKnown",
+      },
+      {
+        id: 9,
+        Name: "jhone",
+        parCode: 9,
+        Product: "Web Development",
+        Price: "unKnown",
+      },
+      {
+        id: 10,
+        Name: "jhone",
+        parCode: 10,
+        Product: "Web Development",
+        Price: "unKnown",
+      },
+      {
+        id: 11,
+        Name: "jhone",
+        parCode: 11,
+        Product: "Web Development",
+        Price: "unKnown",
+      },
+      {
+        id: 12,
+        Name: "jhone",
+        parCode: 12,
+        Product: "Web Development",
+        Price: "unKnown",
+      },
+      {
+        id: 13,
+        Name: "jhone",
+        parCode: 13,
+        Product: "Web Development",
+        Price: "unKnown",
+      },
+      {
+        id: 14,
+        Name: "jhone",
+        parCode: 14,
+        Product: "Web Development",
+        Price: "unKnown",
+      },
+      {
+        id: 15,
+        Name: "jhone",
+        parCode: 15,
+        Product: "Web Development",
+        Price: "unKnown",
+      },
+      {
+        id: 16,
+        Name: "jhone",
+        parCode: 16,
+        Product: "Web Development",
+        Price: "unKnown",
+      },
+      {
+        id: 17,
+        Name: "jhone",
+        parCode: 17,
+        Product: "Web Development",
+        Price: "unKnown",
+      },
+      {
+        id: 18,
+        Name: "jhone",
+        parCode: 18,
+        Product: "Web Development",
+        Price: "unKnown",
+      },
+      {
+        id: 19,
+        Name: "jhone",
+        parCode: 19,
+        Product: "Web Development",
+        Price: "unKnown",
+      },
+      {
+        id: 20,
+        Name: "jhone",
+        parCode: 20,
+        Product: "Web Development",
+        Price: "unKnown",
+      },
+      {
+        id: 21,
+        Name: "jhone",
+        parCode: 21,
+        Product: "Web Development",
+        Price: "unKnown",
+      },
+      {
+        id: 22,
+        Name: "jhone",
+        parCode: 22,
+        Product: "Web Development",
+        Price: "unKnown",
+      },
+      {
+        id: 23,
+        Name: "jhone",
+        parCode: 23,
+        Product: "Web Development",
+        Price: "unKnown",
+      },
+      {
+        id: 24,
+        Name: "jhone",
+        parCode: 24,
+        Product: "Web Development",
+        Price: 1,
+      },
+      {
+        id: 25,
+        Name: "Android Development",
+        parCode: 25,
+        Product: "Android Development",
+        Price: "unKnown",
+      },
+      {
+        id: 26,
+        Name: "jhone",
+        parCode: 26,
+        Product: "Web Development",
+        Price: "unKnown",
+      },
+    ] as any,
+  },
+  mutations: {
+    get_currentproduct(state, data) {
+      state.Products = data;
+    },
+  },
+  actions: {},
+  modules: {},
+});
